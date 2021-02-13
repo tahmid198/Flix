@@ -1,6 +1,9 @@
 # Flix
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Submitted by: **Tahmid Zaman**
+
+Time spent: **~10** hours spent in total
 
 
 Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
@@ -23,8 +26,9 @@ Paste the README template for part 2 of this assignment here at the top. This wi
 
 ### App Walkthrough GIF
  
- <img src= 'https://recordit.co/Q4XYjLm7Bj.gif' width=250><br>
-
+ <img src= 'https://recordit.co/jHLftmRJMW.gif' width=250><br>
+ GIF created with [Recordit](https://recordit.co/).
+ 
 ### Notes
 Describe any challenges encountered while building the app.
 - Getting the posterView to work was tedious
