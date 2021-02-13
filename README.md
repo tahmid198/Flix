@@ -18,13 +18,33 @@ Time spent: **~10** hours spent in total
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
+ Running on iphone 11
+ 
+ 
  
  <img src= 'https://recordit.co/jHLftmRJMW.gif' width=250><br>
  GIF created with [Recordit](https://recordit.co/).
+ 
+
+ Running on iphone 8 plus (vertical)
+ 
+ 
+ 
+ <img src= 'https://https://recordit.co/5IMEDlngXE.gif' width=250><br>
+ GIF created with [Recordit](https://recordit.co/).
+ 
+ Running on iphone 8 plus (horizontal)
+ 
+ 
+ 
+ <img src= 'https://recordit.co/hWV30U3776.gif' width=250><br> 
+ GIF created with [Recordit](https://recordit.co/).
+ 
+ 
  
 ### Notes
 Describe any challenges encountered while building the app.
