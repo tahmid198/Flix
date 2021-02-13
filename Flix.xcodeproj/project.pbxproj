@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F1B52F1425D5E4FD00A7DB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F1325D5E4FD00A7DB11 /* AppDelegate.swift */; };
 		F1B52F1625D5E4FD00A7DB11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F1525D5E4FD00A7DB11 /* SceneDelegate.swift */; };
-		F1B52F1825D5E4FD00A7DB11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F1725D5E4FD00A7DB11 /* ViewController.swift */; };
 		F1B52F1B25D5E4FD00A7DB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B52F1925D5E4FD00A7DB11 /* Main.storyboard */; };
 		F1B52F1D25D5E50000A7DB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B52F1C25D5E50000A7DB11 /* Assets.xcassets */; };
 		F1B52F2025D5E50000A7DB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B52F1E25D5E50000A7DB11 /* LaunchScreen.storyboard */; };
 		F1B52F2B25D5E50100A7DB11 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F2A25D5E50100A7DB11 /* FlixTests.swift */; };
 		F1B52F3625D5E50100A7DB11 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F3525D5E50100A7DB11 /* FlixUITests.swift */; };
+		F1B52F4A25D5F85A00A7DB11 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B52F4925D5F85A00A7DB11 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		F1B52F1025D5E4FD00A7DB11 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B52F1325D5E4FD00A7DB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1B52F1525D5E4FD00A7DB11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1B52F1725D5E4FD00A7DB11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1B52F1A25D5E4FD00A7DB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1B52F1C25D5E50000A7DB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1B52F1F25D5E50000A7DB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		F1B52F3125D5E50100A7DB11 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B52F3525D5E50100A7DB11 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		F1B52F3725D5E50100A7DB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B52F4925D5F85A00A7DB11 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				F1B52F1325D5E4FD00A7DB11 /* AppDelegate.swift */,
 				F1B52F1525D5E4FD00A7DB11 /* SceneDelegate.swift */,
-				F1B52F1725D5E4FD00A7DB11 /* ViewController.swift */,
+				F1B52F4925D5F85A00A7DB11 /* MoviesViewController.swift */,
 				F1B52F1925D5E4FD00A7DB11 /* Main.storyboard */,
 				F1B52F1C25D5E50000A7DB11 /* Assets.xcassets */,
 				F1B52F1E25D5E50000A7DB11 /* LaunchScreen.storyboard */,
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B52F1825D5E4FD00A7DB11 /* ViewController.swift in Sources */,
 				F1B52F1425D5E4FD00A7DB11 /* AppDelegate.swift in Sources */,
 				F1B52F1625D5E4FD00A7DB11 /* SceneDelegate.swift in Sources */,
+				F1B52F4A25D5F85A00A7DB11 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
