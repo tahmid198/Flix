@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
@@ -55,15 +56,27 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell() //creates new cell
+        //let cell = UITableViewCell() //creates new cell
         
+        let cell = tableView.dequeueReusableCell(withIdentifier:"MovieCell") as! MovieCell //at any given point you will have many rows that will take up alot of mem; if ther are any cells of screen, dequeueReusableCell will ask for reusable cells and if there are not any it will create some. cell is casted as a MovieCell
+    
         let movie = movies[indexPath.row] //we access moveis from API and it is stored into movie variable
         
         //variable title has to be cast using as! String to let the variable know what type it needs
         let title = movie["title"] as! String//we access movie title by key from API
+        let synopsis = movie["overview"] as! String
         
-        cell.textLabel!.text = title  //we need to print by turning it into string; indexPath.row will be called within \(--) and returned as a value
+        cell.titleLabel.text = title //lets us access movie cell to print title
+        cell.synopsisLabel.text = synopsis // lets us access movie cell to print synopsis
+    
         
+        let baseUrl = "https://image.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as! String
+        let posterUrl = URL(string: baseUrl + posterPath)
+        
+        cell.posterView.af_setImage(withURL: posterUrl!)
+         
+          
         return cell
     }
     
@@ -87,3 +100,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 //3. Add tableView.dataSource = self and tableView.delegate = self
 //4. Add 2 tableView function and movie count and cell creation within
 //5. Reaload data
+
+// STEPS TO CREATE CUSTOM CELL
+//1. Design cell with titleLable, synopsisLabel, and imageView all within tableViewCell object
+//2. Create swift file for cell and palce name in Created class and reuse identifier
+//3. go back to conrtoller place dequeueReusableCell method and configure outlets
