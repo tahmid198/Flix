@@ -5,9 +5,6 @@ Submitted by: **Tahmid Zaman**
 
 Time spent: **~10** hours spent in total
 
-
-Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
-
 ---
 
 ## Flix Part 1
