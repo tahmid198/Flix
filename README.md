@@ -46,3 +46,4 @@ Time spent: **~10** hours spent in total
 ### Notes
 Describe any challenges encountered while building the app.
 - Getting the posterView to work was tedious
+- Figuring out autolayout and how the constraints work
