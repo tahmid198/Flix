@@ -27,15 +27,12 @@ Time spent: **~10** hours spent in total
  
  
  <img src= 'https://recordit.co/jHLftmRJMW.gif' width=250><br>
- GIF created with [Recordit](https://recordit.co/).
- 
 
  Running on iphone 8 plus (vertical)
  
  
  
- <img src= 'https://https://recordit.co/5IMEDlngXE.gif' width=250><br>
- GIF created with [Recordit](https://recordit.co/).
+ <img src= 'https://recordit.co/5IMEDlngXE.gif' width=250><br>
  
  Running on iphone 8 plus (horizontal)
  
