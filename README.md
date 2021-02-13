@@ -38,7 +38,7 @@ Time spent: **~10** hours spent in total
  
  
  
- <img src= 'https://recordit.co/hWV30U3776.gif' width=250><br> 
+ <img src= 'https://recordit.co/hWV30U3776.gif'><br> 
  GIF created with [Recordit](https://recordit.co/).
  
  
