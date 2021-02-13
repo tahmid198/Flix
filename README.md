@@ -27,7 +27,7 @@ Paste the README template for part 2 of this assignment here at the top. This wi
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
+
 
 #### REQUIRED (10pts)
 - [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
@@ -41,7 +41,7 @@ Paste the README template for part 2 of this assignment here at the top. This wi
 ### App Walkthrough GIF
  `https://recordit.co/Q4XYjLm7Bj`. Make sure the gif actually renders and animates when viewing this 
 
-<img src="https://recordit.co/Q4XYjLm7Bj" width=250><br>
+<img src= 'https://recordit.co/Q4XYjLm7Bj.gif' width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
