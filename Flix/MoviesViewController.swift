@@ -36,7 +36,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             self.movies = dataDictionary["results"] as! [[String:Any]] //movie results are stored in movies property
             
             self.tableView.reloadData() //will call functions again
-            print(dataDictionary)
+            
 
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
@@ -81,15 +81,31 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 
-    /*
+    
     // MARK: - Navigation
-
+    //*The prepare function allows you to prepare the next screen when leaving a screen
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        print("Loading up the details screen")
+        
+        //FIND THE SELECTED MOVIE
+        //By deafult the sender is the moviecell, we cast is as tableViewCell
+        //Cell = cell that was tapped on
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)! //Hey tableView what is the index path for that cell
+        let movie = movies[indexPath.row] //Stored selected movie
+        
+        //PASS THE SELECTED MOVIE TO THE DETAILS VIEW CONTROLLER
+        let detailsViewController = segue.destination as! MoviesDetailViewController
+        detailsViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)  //Deselect row after we transition back to main screen
     }
-    */
+    
+    
 
 }
 
