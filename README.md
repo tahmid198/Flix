@@ -15,7 +15,8 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 
-<img src="http://g.recordit.co/zXdn7doquA.gif" width=250><br>
+![image walktrough](./image/walktrough_story2.gif)
+
 GIF created with [Recordit](https://recordit.co/).
 
 
@@ -46,24 +47,24 @@ Time spent: **~10** hours spent in total
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
- Running on iphone 11
- 
- 
- 
- <img src= 'https://recordit.co/jHLftmRJMW.gif' width=250><br>
+ Running on iphone 11:
+
+
+![image walktrough](./image/iphone11.gif)
+
 
  Running on iphone 8 plus (vertical)
  
  
- 
- <img src= 'https://recordit.co/5IMEDlngXE.gif' width=250><br>
+![!image walktrough](./image/iphone8+.gif)
  
  Running on iphone 8 plus (horizontal)
  
  
- 
- <img src= 'https://recordit.co/hWV30U3776.gif'><br> 
+![image walktrough](./image/iphone8+_horizontal.gif)
+
  GIF created with [Recordit](https://recordit.co/).
+
  
  
  
