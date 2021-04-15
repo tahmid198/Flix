@@ -15,7 +15,7 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 
-![image walktrough](./image/walktrough_story2.gif)
+![image walktrough](./images/walktrough_story2.gif)
 
 GIF created with [Recordit](https://recordit.co/).
 
@@ -50,18 +50,18 @@ Time spent: **~10** hours spent in total
  Running on iphone 11:
 
 
-![image walktrough](./image/iphone11.gif)
+![image walktrough](./images/iphone11.gif)
 
 
  Running on iphone 8 plus (vertical)
  
  
-![!image walktrough](./image/iphone8+.gif)
+![!image walktrough](./images/iphone8+.gif)
  
  Running on iphone 8 plus (horizontal)
  
  
-![image walktrough](./image/iphone8+_horizontal.gif)
+![image walktrough](./images/iphone8+_horizontal.gif)
 
  GIF created with [Recordit](https://recordit.co/).
 
