@@ -15,7 +15,7 @@
 <!-- - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer. -->
 
 
-![image walktrough](./images/walktrough_story2.gif)
+![image walktrough](./images/newpart2.gif)
 
 GIF created with [Recordit](https://recordit.co/).
 
